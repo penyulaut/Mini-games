@@ -1,0 +1,53 @@
+* , body, html{
+    padding: 0;
+    margin: 0;
+
+}
+
+:root{
+    box-sizing: border-box;
+}
+
+#app{
+    height: 100vh;
+}
+
+.title{
+  text-align: center;
+}
+
+.summary{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 3px solid blanchedalmond;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 25px;
+}
+
+.option{
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: bisque;
+}
+
+.option:hover{
+    cursor: pointer;
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scaleX(105%);
+    -webkit-transform: scale(105%);
+}
